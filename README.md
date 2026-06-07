@@ -1,2 +1,0 @@
-# Big-deal
-learn slowly
