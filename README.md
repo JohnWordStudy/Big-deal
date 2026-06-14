@@ -7,10 +7,10 @@ This project demonstrates how transportation engineering concepts can be combine
 
 ## 🚇 Demo Screenshots
 
-### **Main Interface**
+### **screenshot 1**
 ![Metro Visualizer 1](./screenshot1.png)
 
-### **Shortest Path Highlight**
+### **screenshot 2**
 ![Metro Visualizer 2](./screenshot2.png)
 
 *(Replace the filenames with your actual screenshot names)*
