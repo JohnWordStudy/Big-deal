@@ -17,7 +17,7 @@ def main():
     # 2. 计算两站之间的最短运行时间（不考虑等车，只看行车时间）
     print_shortest_path(network, source="A", target="F")
 
-    # 你可以在这里加交互，比如输入起终点
+    # 可以在这里加交互，比如输入起终点
     while True:
         cmd = input("\n输入起点和终点（例如 A F），或 q 退出：").strip()
         if cmd.lower() == "q":
