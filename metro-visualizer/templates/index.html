@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Metro Visualizer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Metro Network Visualizer</h1>
+
+    <div class="controls">
+        <select id="source">
+            {% for s in stations %}
+            <option value="{{ s }}">{{ s }}</option>
+            {% endfor %}
+        </select>
+
+        <select id="target">
+            {% for s in stations %}
+            <option value="{{ s }}">{{ s }}</option>
+            {% endfor %}
+        </select>
+
+        <button onclick="findPath()">Find Shortest Path</button>
+    </div>
+
+    <canvas id="canvas" width="800" height="500"></canvas>
+
+    <script src="/static/graph.js"></script>
+</body>
+</html>

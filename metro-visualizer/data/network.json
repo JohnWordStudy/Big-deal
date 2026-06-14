@@ -1,0 +1,23 @@
+{
+  "stations": ["A", "B", "C", "D", "E", "F"],
+  "edges": [
+    { "from": "A", "to": "B", "travel_time": 3 },
+    { "from": "B", "to": "C", "travel_time": 4 },
+    { "from": "C", "to": "D", "travel_time": 5 },
+    { "from": "B", "to": "E", "travel_time": 6 },
+    { "from": "E", "to": "F", "travel_time": 4 },
+    { "from": "D", "to": "F", "travel_time": 3 }
+  ],
+  "lines": [
+    {
+      "name": "L1",
+      "stops": ["A", "B", "C", "D", "F"],
+      "headway": 5
+    },
+    {
+      "name": "L2",
+      "stops": ["B", "E", "F"],
+      "headway": 7
+    }
+  ]
+}
