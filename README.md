@@ -13,10 +13,6 @@ This project demonstrates how transportation engineering concepts can be combine
 ### **screenshot 2**
 ![Metro Visualizer 2](./screenshot2.png)
 
-*(Replace the filenames with your actual screenshot names)*
-
----
-
 ## 📌 Overview
 
 This project implements a simplified metro network system that supports:
